@@ -1,0 +1,610 @@
+[
+    {
+        "deduplicationId": "6684ff45-e44d-4870-afed-303c8096701c",
+        "time": "2024-04-18T17:11:51.303+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 8,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 35168,
+                "gwTime": "2024-04-18T17:11:51.303+00:00",
+                "nsTime": "2024-04-18T17:11:51.418259122+00:00",
+                "rssi": -33,
+                "snr": 9.2,
+                "context": "JFKeqw==",
+                "metadata": {
+                    "gateway_long": "-78.681738661982422",
+                    "regi": "US915",
+                    "network": "helium_iot",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_name": "colossal-sky-turkey",
+                    "region_common_name": "US915",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "region_config_id": "us915_1"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 904700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "e0c19580-46e8-4b1e-b007-5fd60e27be7e",
+        "time": "2024-04-18T17:11:31.308+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 7,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 38761,
+                "gwTime": "2024-04-18T17:11:31.308+00:00",
+                "nsTime": "2024-04-18T17:11:31.433446438+00:00",
+                "rssi": -33,
+                "snr": 10,
+                "context": "IyFevA==",
+                "metadata": {
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "region_config_id": "us915_1"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 905100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "20507c07-e2e8-4978-b7e4-5828996a22ae",
+        "time": "2024-04-18T17:11:11.298+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 6,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 44402,
+                "gwTime": "2024-04-18T17:11:11.298+00:00",
+                "nsTime": "2024-04-18T17:11:11.388332843+00:00",
+                "rssi": -35,
+                "snr": 11.5,
+                "context": "IfAy4w==",
+                "metadata": {
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "region_config_id": "us915_1",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "region_common_name": "US915",
+                    "gateway_name": "colossal-sky-turkey",
+                    "gateway_long": "-78.681738661982422",
+                    "network": "helium_iot",
+                    "regi": "US915"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 903900000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "7f90f21a-e9d8-4971-a2b1-38f60906c8d9",
+        "time": "2024-04-18T17:10:51.302+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 5,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 41838,
+                "gwTime": "2024-04-18T17:10:51.302+00:00",
+                "nsTime": "2024-04-18T17:10:51.392544370+00:00",
+                "rssi": -34,
+                "snr": 9,
+                "context": "IL8DKw==",
+                "metadata": {
+                    "regi": "US915",
+                    "gateway_name": "colossal-sky-turkey",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "region_config_id": "us915_1",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "region_common_name": "US915",
+                    "network": "helium_iot"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 904500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "f55a543a-2ff8-4c25-9752-67722a31f98c",
+        "time": "2024-04-18T17:10:31.316+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 4,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 55242,
+                "gwTime": "2024-04-18T17:10:31.316+00:00",
+                "nsTime": "2024-04-18T17:10:31.406115332+00:00",
+                "rssi": -32,
+                "snr": 10.2,
+                "context": "H43niw==",
+                "metadata": {
+                    "gateway_lat": "35.768260143561008",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "region_config_id": "us915_1",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_name": "colossal-sky-turkey",
+                    "region_common_name": "US915"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 904700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "c9fef674-1dfa-4159-be23-0291fb37f7c0",
+        "time": "2024-04-18T17:10:11.334+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 3,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 50260,
+                "gwTime": "2024-04-18T17:10:11.334+00:00",
+                "nsTime": "2024-04-18T17:10:11.461782007+00:00",
+                "rssi": -36,
+                "snr": 9.5,
+                "context": "HlynYw==",
+                "metadata": {
+                    "regi": "US915",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1",
+                    "network": "helium_iot",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_name": "colossal-sky-turkey"
+                },
+                "crcStatus": "CRC_OK"
+            },
+            {
+                "gatewayId": "a52891a1864cc3b2",
+                "uplinkId": 25483,
+                "gwTime": "2024-04-18T17:10:11.294+00:00",
+                "nsTime": "2024-04-18T17:10:11.384209653+00:00",
+                "rssi": -116,
+                "snr": -2.2,
+                "context": "gzHlAQ==",
+                "metadata": {
+                    "gateway_long": "-78.684319095986552",
+                    "gateway_h3index": "8c2ad69b262bbff",
+                    "network": "helium_iot",
+                    "gateway_name": "tall-hotpink-crow",
+                    "gateway_id": "112Sa7ezr6pga4E2mAKTVu9VhvxEBQgNtt4Xrhs8xpBdriWdvQav",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "gateway_lat": "35.774195436261991",
+                    "region_config_id": "us915_1"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 904100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "4d387cfb-b0f7-49b0-a7cf-b7168f5ba392",
+        "time": "2024-04-18T17:09:51.306+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 2,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 6132,
+                "gwTime": "2024-04-18T17:09:51.306+00:00",
+                "nsTime": "2024-04-18T17:09:51.397145259+00:00",
+                "rssi": -38,
+                "snr": 11,
+                "context": "HSt7VA==",
+                "metadata": {
+                    "gateway_name": "colossal-sky-turkey",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "network": "helium_iot",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1",
+                    "regi": "US915",
+                    "gateway_lat": "35.768260143561008"
+                },
+                "crcStatus": "CRC_OK"
+            },
+            {
+                "gatewayId": "a52891a1864cc3b2",
+                "uplinkId": 31895,
+                "gwTime": "2024-04-18T17:09:51.286+00:00",
+                "nsTime": "2024-04-18T17:09:51.377096304+00:00",
+                "rssi": -120,
+                "snr": -6.8,
+                "context": "ggC4gA==",
+                "metadata": {
+                    "gateway_long": "-78.684319095986552",
+                    "gateway_h3index": "8c2ad69b262bbff",
+                    "gateway_id": "112Sa7ezr6pga4E2mAKTVu9VhvxEBQgNtt4Xrhs8xpBdriWdvQav",
+                    "gateway_name": "tall-hotpink-crow",
+                    "region_common_name": "US915",
+                    "gateway_lat": "35.774195436261991",
+                    "regi": "US915",
+                    "network": "helium_iot",
+                    "region_config_id": "us915_1"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 905100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "4045c6db-4834-4e2a-884c-e56565f8b660",
+        "time": "2024-04-18T17:09:31.309+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 3,
+        "fCnt": 1,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 32448,
+                "gwTime": "2024-04-18T17:09:31.309+00:00",
+                "nsTime": "2024-04-18T17:09:31.399258465+00:00",
+                "rssi": -36,
+                "snr": 6.8,
+                "context": "G/p3kw==",
+                "metadata": {
+                    "regi": "US915",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "region_common_name": "US915",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_name": "colossal-sky-turkey",
+                    "region_config_id": "us915_1",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "network": "helium_iot"
+                },
+                "crcStatus": "CRC_OK"
+            },
+            {
+                "gatewayId": "a52891a1864cc3b2",
+                "uplinkId": 879,
+                "gwTime": "2024-04-18T17:09:31.304+00:00",
+                "nsTime": "2024-04-18T17:09:31.394284691+00:00",
+                "rssi": -120,
+                "snr": -6.2,
+                "context": "gM+1IQ==",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69b262bbff",
+                    "gateway_name": "tall-hotpink-crow",
+                    "gateway_id": "112Sa7ezr6pga4E2mAKTVu9VhvxEBQgNtt4Xrhs8xpBdriWdvQav",
+                    "regi": "US915",
+                    "region_config_id": "us915_1",
+                    "network": "helium_iot",
+                    "gateway_long": "-78.684319095986552",
+                    "region_common_name": "US915",
+                    "gateway_lat": "35.774195436261991"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 904300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 7,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    },
+    {
+        "deduplicationId": "4045c6db-4834-4e2a-884c-e56565f8b660",
+        "time": "2024-04-18T17:09:31.309+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "margin": 9,
+        "externalPowerSource": true,
+        "batteryLevelUnavailable": false,
+        "batteryLevel": 0
+    },
+    {
+        "deduplicationId": "6f40e797-0ba7-4d59-8c17-c6c16aabbcc8",
+        "time": "2024-04-18T17:09:11.572+00:00",
+        "deviceInfo": {
+            "tenantId": "6a65a46c-4725-4079-a7d4-36d44312aa36",
+            "tenantName": "NCSU",
+            "applicationId": "8ef0a383-3339-44c8-bd39-95f9a7ff20a0",
+            "applicationName": "LoRa",
+            "deviceProfileId": "18677363-9922-464d-9c7d-f3e53b6ff0fa",
+            "deviceProfileName": "Test Device",
+            "deviceName": "Test",
+            "devEui": "69ca6c0d4c58b44b",
+            "deviceClassEnabled": "CLASS_A",
+            "tags": {}
+        },
+        "devAddr": "78000003",
+        "adr": true,
+        "dr": 0,
+        "fCnt": 0,
+        "fPort": 2,
+        "confirmed": false,
+        "data": "SGVsbG8h",
+        "rxInfo": [
+            {
+                "gatewayId": "a52891a1864cc3b2",
+                "uplinkId": 55620,
+                "gwTime": "2024-04-18T17:09:11.572+00:00",
+                "nsTime": "2024-04-18T17:09:11.672453180+00:00",
+                "rssi": -126,
+                "snr": -12,
+                "context": "f6KcIw==",
+                "metadata": {
+                    "region_config_id": "us915_1",
+                    "gateway_name": "tall-hotpink-crow",
+                    "gateway_h3index": "8c2ad69b262bbff",
+                    "regi": "US915",
+                    "network": "helium_iot",
+                    "gateway_long": "-78.684319095986552",
+                    "region_common_name": "US915",
+                    "gateway_lat": "35.774195436261991",
+                    "gateway_id": "112Sa7ezr6pga4E2mAKTVu9VhvxEBQgNtt4Xrhs8xpBdriWdvQav"
+                },
+                "crcStatus": "CRC_OK"
+            },
+            {
+                "gatewayId": "0d5df19c4ab70696",
+                "uplinkId": 4762,
+                "gwTime": "2024-04-18T17:09:11.593+00:00",
+                "nsTime": "2024-04-18T17:09:11.698304250+00:00",
+                "rssi": -46,
+                "snr": 11.5,
+                "context": "Gs1enA==",
+                "metadata": {
+                    "network": "helium_iot",
+                    "gateway_lat": "35.768260143561008",
+                    "region_config_id": "us915_1",
+                    "regi": "US915",
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_name": "colossal-sky-turkey",
+                    "gateway_long": "-78.681738661982422",
+                    "region_common_name": "US915"
+                },
+                "crcStatus": "CRC_OK"
+            }
+        ],
+        "txInfo": {
+            "frequency": 905300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "spreadingFactor": 10,
+                    "codeRate": "CR_4_5"
+                }
+            }
+        }
+    }
+]

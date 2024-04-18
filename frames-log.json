@@ -1,0 +1,735 @@
+[
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataUp",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                32,
+                96,
+                39,
+                162
+            ],
+            "payload": {
+                "f_port": 2,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 8,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 2,
+                        "f_pending": false
+                    },
+                    "f_opts": [
+                        {
+                            "LinkADRAns": {
+                                "ch_mask_ack": true,
+                                "dr_ack": true,
+                                "tx_power_ack": true
+                            }
+                        }
+                    ]
+                },
+                "frm_payload": "48656c6c6f21"
+            }
+        },
+        "rx_info": [
+            {
+                "context": "JFKeqw==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "0d5df19c4ab70696",
+                "gwTime": "2024-04-18T17:11:51.303+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:11:51.418259122+00:00",
+                "rssi": -33,
+                "snr": 9.199999809265137,
+                "uplinkId": 35168
+            }
+        ],
+        "tx_info": {
+            "frequency": 904700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "codeRate": "CR_4_5",
+                    "spreadingFactor": 7
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataDown",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                51,
+                10,
+                182,
+                129
+            ],
+            "payload": {
+                "f_port": null,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 4,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 5,
+                        "f_pending": false
+                    },
+                    "f_opts": [
+                        {
+                            "LinkADRReq": {
+                                "ch_mask": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                                ],
+                                "dr": 3,
+                                "redundancy": {
+                                    "ch_mask_cntl": 0,
+                                    "nb_rep": 1
+                                },
+                                "tx_power": 2
+                            }
+                        }
+                    ]
+                },
+                "frm_payload": null
+            }
+        },
+        "tx_info": {
+            "context": "IyFevA==",
+            "frequency": 926900000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 500000,
+                    "codeRate": "CR_4_5",
+                    "polarizationInversion": true,
+                    "spreadingFactor": 7
+                }
+            },
+            "power": 21,
+            "timing": {
+                "delay": {
+                    "delay": "1s"
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataUp",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                177,
+                221,
+                136,
+                32
+            ],
+            "payload": {
+                "f_port": 2,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 7,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 0,
+                        "f_pending": false
+                    },
+                    "f_opts": []
+                },
+                "frm_payload": "48656c6c6f21"
+            }
+        },
+        "rx_info": [
+            {
+                "context": "IyFevA==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "0d5df19c4ab70696",
+                "gwTime": "2024-04-18T17:11:31.308+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:11:31.433446438+00:00",
+                "rssi": -33,
+                "snr": 10,
+                "uplinkId": 38761
+            }
+        ],
+        "tx_info": {
+            "frequency": 905100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "codeRate": "CR_4_5",
+                    "spreadingFactor": 7
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataDown",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                211,
+                70,
+                20,
+                36
+            ],
+            "payload": {
+                "f_port": null,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 3,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 5,
+                        "f_pending": false
+                    },
+                    "f_opts": [
+                        {
+                            "LinkADRReq": {
+                                "ch_mask": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                                ],
+                                "dr": 3,
+                                "redundancy": {
+                                    "ch_mask_cntl": 0,
+                                    "nb_rep": 1
+                                },
+                                "tx_power": 2
+                            }
+                        }
+                    ]
+                },
+                "frm_payload": null
+            }
+        },
+        "tx_info": {
+            "context": "IfAy4w==",
+            "frequency": 923300000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 500000,
+                    "codeRate": "CR_4_5",
+                    "polarizationInversion": true,
+                    "spreadingFactor": 7
+                }
+            },
+            "power": 21,
+            "timing": {
+                "delay": {
+                    "delay": "1s"
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataUp",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                17,
+                83,
+                1,
+                120
+            ],
+            "payload": {
+                "f_port": 2,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 6,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 0,
+                        "f_pending": false
+                    },
+                    "f_opts": []
+                },
+                "frm_payload": "48656c6c6f21"
+            }
+        },
+        "rx_info": [
+            {
+                "context": "IfAy4w==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "0d5df19c4ab70696",
+                "gwTime": "2024-04-18T17:11:11.298+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:11:11.388332843+00:00",
+                "rssi": -35,
+                "snr": 11.5,
+                "uplinkId": 44402
+            }
+        ],
+        "tx_info": {
+            "frequency": 903900000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "codeRate": "CR_4_5",
+                    "spreadingFactor": 7
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataUp",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                53,
+                43,
+                201,
+                196
+            ],
+            "payload": {
+                "f_port": 2,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 5,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 0,
+                        "f_pending": false
+                    },
+                    "f_opts": []
+                },
+                "frm_payload": "48656c6c6f21"
+            }
+        },
+        "rx_info": [
+            {
+                "context": "IL8DKw==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "0d5df19c4ab70696",
+                "gwTime": "2024-04-18T17:10:51.302+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:10:51.392544370+00:00",
+                "rssi": -34,
+                "snr": 9,
+                "uplinkId": 41838
+            }
+        ],
+        "tx_info": {
+            "frequency": 904500000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "codeRate": "CR_4_5",
+                    "spreadingFactor": 7
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataUp",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                0,
+                179,
+                239,
+                199
+            ],
+            "payload": {
+                "f_port": 2,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 4,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 2,
+                        "f_pending": false
+                    },
+                    "f_opts": [
+                        {
+                            "LinkADRAns": {
+                                "ch_mask_ack": true,
+                                "dr_ack": true,
+                                "tx_power_ack": true
+                            }
+                        }
+                    ]
+                },
+                "frm_payload": "48656c6c6f21"
+            }
+        },
+        "rx_info": [
+            {
+                "context": "H43niw==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "0d5df19c4ab70696",
+                "gwTime": "2024-04-18T17:10:31.316+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:10:31.406115332+00:00",
+                "rssi": -32,
+                "snr": 10.199999809265137,
+                "uplinkId": 55242
+            }
+        ],
+        "tx_info": {
+            "frequency": 904700000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "codeRate": "CR_4_5",
+                    "spreadingFactor": 7
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataDown",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                232,
+                207,
+                31,
+                202
+            ],
+            "payload": {
+                "f_port": null,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 2,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 5,
+                        "f_pending": false
+                    },
+                    "f_opts": [
+                        {
+                            "LinkADRReq": {
+                                "ch_mask": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                                ],
+                                "dr": 3,
+                                "redundancy": {
+                                    "ch_mask_cntl": 0,
+                                    "nb_rep": 1
+                                },
+                                "tx_power": 1
+                            }
+                        }
+                    ]
+                },
+                "frm_payload": null
+            }
+        },
+        "tx_info": {
+            "context": "HlynYw==",
+            "frequency": 923900000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 500000,
+                    "codeRate": "CR_4_5",
+                    "polarizationInversion": true,
+                    "spreadingFactor": 7
+                }
+            },
+            "power": 21,
+            "timing": {
+                "delay": {
+                    "delay": "1s"
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataUp",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                152,
+                79,
+                82,
+                30
+            ],
+            "payload": {
+                "f_port": 2,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 3,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 0,
+                        "f_pending": false
+                    },
+                    "f_opts": []
+                },
+                "frm_payload": "48656c6c6f21"
+            }
+        },
+        "rx_info": [
+            {
+                "context": "HlynYw==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "0d5df19c4ab70696",
+                "gwTime": "2024-04-18T17:10:11.334+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69948203ff",
+                    "gateway_id": "11fVx7enjUgVFZ8QFW8TNHYSPjoLsVnLrRHsUpDPApPPiNcpKm8",
+                    "gateway_lat": "35.768260143561008",
+                    "gateway_long": "-78.681738661982422",
+                    "gateway_name": "colossal-sky-turkey",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:10:11.461782007+00:00",
+                "rssi": -36,
+                "snr": 9.5,
+                "uplinkId": 50260
+            },
+            {
+                "context": "gzHlAQ==",
+                "crcStatus": "CRC_OK",
+                "gatewayId": "a52891a1864cc3b2",
+                "gwTime": "2024-04-18T17:10:11.294+00:00",
+                "metadata": {
+                    "gateway_h3index": "8c2ad69b262bbff",
+                    "gateway_id": "112Sa7ezr6pga4E2mAKTVu9VhvxEBQgNtt4Xrhs8xpBdriWdvQav",
+                    "gateway_lat": "35.774195436261991",
+                    "gateway_long": "-78.684319095986552",
+                    "gateway_name": "tall-hotpink-crow",
+                    "network": "helium_iot",
+                    "regi": "US915",
+                    "region_common_name": "US915",
+                    "region_config_id": "us915_1"
+                },
+                "nsTime": "2024-04-18T17:10:11.384209653+00:00",
+                "rssi": -116,
+                "snr": -2.200000047683716,
+                "uplinkId": 25483
+            }
+        ],
+        "tx_info": {
+            "frequency": 904100000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 125000,
+                    "codeRate": "CR_4_5",
+                    "spreadingFactor": 7
+                }
+            }
+        }
+    },
+    {
+        "phy_payload": {
+            "mhdr": {
+                "m_type": "UnconfirmedDataDown",
+                "major": "LoRaWANR1"
+            },
+            "mic": [
+                107,
+                69,
+                129,
+                134
+            ],
+            "payload": {
+                "f_port": null,
+                "fhdr": {
+                    "devaddr": "78000003",
+                    "f_cnt": 1,
+                    "f_ctrl": {
+                        "ack": false,
+                        "adr": true,
+                        "adr_ack_req": false,
+                        "class_b": false,
+                        "f_opts_len": 5,
+                        "f_pending": false
+                    },
+                    "f_opts": [
+                        {
+                            "LinkADRReq": {
+                                "ch_mask": [
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    false,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true,
+                                    true
+                                ],
+                                "dr": 3,
+                                "redundancy": {
+                                    "ch_mask_cntl": 0,
+                                    "nb_rep": 1
+                                },
+                                "tx_power": 1
+                            }
+                        }
+                    ]
+                },
+                "frm_payload": null
+            }
+        },
+        "tx_info": {
+            "context": "HSt7VA==",
+            "frequency": 926900000,
+            "modulation": {
+                "lora": {
+                    "bandwidth": 500000,
+                    "codeRate": "CR_4_5",
+                    "polarizationInversion": true,
+                    "spreadingFactor": 7
+                }
+            },
+            "power": 21,
+            "timing": {
+                "delay": {
+                    "delay": "1s"
+                }
+            }
+        }
+    }
+]
