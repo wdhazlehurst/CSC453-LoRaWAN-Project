@@ -48,3 +48,6 @@ TX finished
 ```
 If that is the case, check your helium console logs, and you should see some output, which includes some device statistics.
 If you wish to transmit different data, modify the source code to transmit the data you wish to send to the console.
+
+## Measurement Transmission
+We did not have any sensors to get measurement values, so we had to hard-code some. For our `LoRaWAN_OTAA_OBP-Temperature.ino` file, this includes a hard-coded temperature value of a float, `float temp = 75.8;`. This will be converted into a human-readable format, using multiplication to get the integers and decimal places, and then stored as a String. Finally, it will be transmitted to the gateway, the same way as the 'Hello!' message is in the original source code.
